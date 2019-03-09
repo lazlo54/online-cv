@@ -52,14 +52,7 @@ career-profile:
       codding in an attempt to learn the codding process and the language itself. 
       Also there were projects that were directed more to a creative side of the
       current subject.
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-
-      Second paragraph if required.
-
+      
 education:
     - university: Ionian University
       time: 2016 - Present
@@ -73,59 +66,29 @@ education:
           - Bullet point
           - Bullet point
 
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
-
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
-
 projects:
     title: Projects
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+        Some of the assigments were from my university, some others were for my own education
 
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: Shooter
+        link: "https://lazlo54.github.io/Shooter/"
+        tagline: "A project assigned from our professor from our university to create a shooter based 2D game to
+                    learn codding in HTML5 and to be more creative with our work."
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: corfu-map
+        link: "https://lazlo54.github.io/corfu-map/"
+        tagline: "A project for the students to learn codding based on Google Maps Javascript API and the GeoJSON data forms."
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: Super-Mario
+        link: "https://lazlo54.github.io/Super-Mario/"
+        tagline: "A project that was assigned from the university. The point is to recreate tha icon game super mario and
+                    put an artistic twist in it to differentiate it from the origina and others attempts."
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: Field of Fire
+        link: "https://www.youtube.com/watch?v=KXyNV0wiybY"
+        tagline: "A project i created by myself to learn codding and to try to create a first person shooter."
 
 skills:
     title: Skills &amp; Proficiency
