@@ -8,7 +8,7 @@ sidebar:
 
     # Profile information
     name: Lazaros Iordanou
-    tagline: Full Stack Developer
+    tagline: Department of Informatics Student
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -57,14 +57,10 @@ education:
     - university: Ionian University
       time: 2016 - Present
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
+        Currently studying in the ionian university in the department of informatics. I have a passion for creative problem 
+        solving, so programming is a fun activity for me most of the time. Mostly when i complete stuff that work flawlessly.
+        I'm at the 3rd year of a 4 year study program. I have learnd a lot of stuff at programming but also in computer graphics,
+        databasses, and more stuff on how the software of a computer works and more like that.
 
 projects:
     title: Projects
