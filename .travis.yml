@@ -1,21 +1,10 @@
-stages:
- - deploy
- - trigger-other-builds
-
-pages:
-  stage: deploy
-  image: schickling/latex
-  script:
-    - mkdir public
-    - pdflatex -output-directory public resume.tex
-  artifacts:
-    paths:
-      - public
-  only:
-     - master
-
-trigger-gshakhn-com:
-  stage: trigger-other-builds
-  script: 
-    - curl -X POST -F token=$GSHAKHN_TOKEN -F ref=master https://gitlab.com/api/v3/projects/$GSHAKHN_PROJECT_ID/trigger/builds
-
+language: bash
+before_install:
+- sudo apt-get install texlive texlive-xetex texlive-math-extra texlive-latex-recommended
+  texlive-latex-extra
+- wget https://github.com/jgm/pandoc/releases/download/2.6/pandoc-2.6-linux.tar.gz
+- tar xvfz pandoc-2.6-linux.tar.gz
+script:
+- bash deploy.sh
+after_success:
+- bash push.sh
