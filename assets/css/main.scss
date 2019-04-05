@@ -2,7 +2,7 @@
 
 ---
 
-@charset "utf-8";
+@charset "utf-16";
 
 @import "skins/{{ site.theme_skin | default: 'black' }}"; // skin
 @import "default"; // main partials
