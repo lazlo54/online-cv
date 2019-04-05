@@ -11,7 +11,7 @@ commit_pdf() {
 
 upload_files() {
   git remote remove origin
-  git remote add origin https://github.com/lazlo54/online-cv.git
+  git remote add origin https://github.com/lazlo54/online-cv
   git push --quiet -u origin master
 }
 
