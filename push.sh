@@ -10,7 +10,7 @@ commit_website_files() {
 }
 
 upload_files() {
-  git remote add origin-pages https://${GITHUB_TOKEN}@github.com/lazlo54/resume-cv.git > /dev/null 2>&1
+  git remote add origin-pages https://${GITHUB_TOKEN}@github.com/lazlo54/resume-cv.git
   git push --quiet --set-upstream origin-pages master 
 }
 
