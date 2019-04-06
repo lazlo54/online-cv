@@ -33,15 +33,15 @@ $endif$
 \usepackage{xunicode}
 \usepackage{xltxtra}
 
-\usepackage{fontspec,xltxtra,xunicode}
+%\usepackage{fontspec,xltxtra,xunicode}
 %\defaultfontfeatures{Mapping=tex-text}
-\setmainfont[Mapping=tex-text]{Latin Modern Sans Text}
-\newfontfamily{\S}{Latin Modern Sans Text}
+%\setmainfont[Mapping=tex-text]{Latin Modern Sans Text}
+%\newfontfamily{\S}{Latin Modern Sans Text}
 
 % converts LaTeX specials (quotes, dashes etc.) to Unicode
-%\defaultfontfeatures{Mapping=tex-text}
+\defaultfontfeatures{Mapping=tex-text}
 %\setmainfont [Ligatures={Common,TeX}, Numbers={Latin Modern Sans}]{Palatino}
-%\setromanfont [Ligatures={Common,TeX}, Numbers={Latin Modern Sans}]{$mainfont$}
+\setromanfont [Ligatures={Common}, Numbers={Latin Modern Sans}]{$mainfont$}
 %   \setmonofont[Mapping=tex-ansi]{$monofont$}
 % Cool ampersand
 \newcommand{\amper}{{\fontspec[Scale=.95]{$mainfont$}\selectfont\itshape\&}}
